@@ -1,0 +1,31 @@
+{
+  "name": "fingerprintjs-react-spa-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs-pro-react": "workspace:*",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "typescript": "*"
+  },
+  "scripts": {
+    "start": "PORT=3001 DISABLE_ESLINT_PLUGIN=true react-scripts start",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
